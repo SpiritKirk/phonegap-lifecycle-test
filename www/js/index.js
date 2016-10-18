@@ -47,5 +47,5 @@ var value = "Nexus"
 window.localStorage.setItem(key, value);
 
 $(function () {          
-    $("Item").text("Nexus");
+    $("item").text("Nexus");
 });
