@@ -39,3 +39,13 @@ var launched_count = 0;
 		resumed_count++;
 		updateDisplay();
     }
+
+
+var key = "phone"
+var value = "Nexus"
+
+window.localStorage.setItem(key, value);
+
+$(function () {          
+    $("Item").text("Nexus");
+});
